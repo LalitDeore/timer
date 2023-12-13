@@ -1,0 +1,76 @@
+body {
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(27, 35, 48, 1);
+  }
+  
+  .countdown-timer {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .countdown-timer h1 {
+    font-size: 20px;
+  }
+  
+  .countdown-timer {
+    font-size: 30px;
+  }
+  
+
+  .countdown-timer button {
+    width: 100px;
+    margin: 0 10px;
+  }
+  
+  .text {
+    /* margin-right: 50px; */
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(5, 171, 205, 1);
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input {
+    border: 1px solid rgba(42, 48, 64, 1);
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: rgba(27, 35, 48, 1);
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  .input::-webkit-outer-spin-button,
+  .input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .icon {
+    width: 30px !important;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  
+  .timer-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(5, 171, 205, 1);
+  }
+  
+  .time {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
