@@ -56,10 +56,13 @@ body {
   }
   
   .icon {
-    width: 30px !important;
+    width: 30px ;
     height: 30px;
     margin-top: 0px;
     margin-bottom: 15px;
+    color: rgba(5, 171, 205, 1);
+    margin-left: 0px;
+    margin-right: 60px;
   }
   
   .timer-display {
@@ -68,7 +71,19 @@ body {
     align-items: center;
     color: rgba(5, 171, 205, 1);
   }
-  
+  @media screen and (min-width: 319px) {
+    .timer-display{
+      width: 100%;
+      gap: 10px;
+      margin-left: 30px;
+    }
+    .time{
+      width: 160px;
+    }
+    .text{
+      margin-left: 48px;
+    }
+  }
   .time {
     margin-left: 20px;
     margin-top: 10px;

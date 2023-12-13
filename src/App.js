@@ -64,16 +64,16 @@ const Timer = () => {
           onClick={handleStartStopClick}
         >
           {isRunning ? (
-            <MdPause className="icon text" />
+            <MdPause className="icon" />
           ) : (
-            <MdNotStarted className="icon text" />
+            <MdNotStarted className="icon" />
           )}
         </button>
         <label className="time">
           {time.hours}h {time.minutes}m {time.seconds}s
         </label>
         <button className="button" onClick={handleResetClick}>
-          <RxReset className="icon text" style={{ marginTop: "30px" }} />
+          <RxReset className="icon" style={{ marginTop: "30px" }} />
         </button>
       </div>
     </div>
